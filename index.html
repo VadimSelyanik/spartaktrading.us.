@@ -6,14 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Spartak Trading</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container header-flex">
       <h1 class="logo">Spartak Trading</h1>
       <nav>
         <ul class="nav-list">
           <li><a href="#about">About</a></li>
+          <li><a href="#philosophy">Philosophy</a></li>
+          <li><a href="#whatwedo">What We Do</a></li>
           <li><a href="#locations">Locations</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -22,17 +25,51 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container">
+    <section class="hero" style="background-image: url('assets/hero.jpg');">
+      <div class="container hero-content">
         <h2>Algorithmic Trading & Software Solutions</h2>
-        <p>We build tools for modern trading. Fast. Reliable. Intelligent.</p>
+        <p>Empowering markets with technology, speed, and innovation.</p>
       </div>
     </section>
 
     <section id="about" class="section">
+      <div class="container about-flex">
+        <div class="about-text">
+          <h3>About Us</h3>
+          <p>Spartak Trading is a small, privately-held company based in the USA, specializing in algorithmic trading across various exchanges and developing advanced software for trading. We build tools for modern trading: fast, reliable, and intelligent.</p>
+        </div>
+        <div class="about-img">
+          <img src="assets/about.jpg" alt="About Spartak Trading" />
+        </div>
+      </div>
+    </section>
+
+    <section id="philosophy" class="section gray">
+      <div class="container philosophy-flex">
+        <div class="philosophy-img">
+          <img src="assets/philosophy.jpg" alt="Philosophy" />
+        </div>
+        <div class="philosophy-text">
+          <h3>Our Philosophy</h3>
+          <p>We believe in the power of adaptation, innovation, and relentless pursuit of excellence. Our team is driven by curiosity, integrity, and a passion for technology. We challenge the status quo, embrace change, and strive to create value in every market we touch.</p>
+          <ul>
+            <li>Adapt – Innovate – Evolve</li>
+            <li>Collaboration and meritocracy</li>
+            <li>Technology as a competitive edge</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="whatwedo" class="section">
       <div class="container">
-        <h3>About Us</h3>
-        <p>Spartak Trading is a privately-held company based in the USA, specializing in algorithmic trading across various exchanges. We also develop advanced software solutions to empower trading strategies and infrastructure.</p>
+        <h3>What We Do</h3>
+        <ul class="whatwedo-list">
+          <li>Algorithmic trading on global exchanges</li>
+          <li>Development of high-performance trading software</li>
+          <li>Risk management and market making</li>
+          <li>Research and implementation of quantitative strategies</li>
+        </ul>
       </div>
     </section>
 
@@ -56,7 +93,7 @@
     <section id="contact" class="section">
       <div class="container">
         <h3>Contact</h3>
-        <p>For inquiries, please contact us at <a href="mailto:info@spartaktrading.us">info@spartaktrading.us</a></p>
+        <p>For inquiries, please contact us at <a href="mailto:agerasev@spartak.trading">agerasev@spartak.trading</a></p>
       </div>
     </section>
   </main>
@@ -64,6 +101,7 @@
   <footer class="footer">
     <div class="container">
       <p>&copy; 2025 Spartak Trading. All rights reserved.</p>
+      <p class="footer-note">Empowering markets with technology and integrity.</p>
     </div>
   </footer>
 </body>
